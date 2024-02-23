@@ -4,8 +4,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Screenshot
 
-![Desktop view](./screenshots/screenshot_desktop_view.jpg)
-![Mobile view](./screenshots/screenshot_mobile(375px)_view.jpg)
+![Desktop view](./screenshots/desktop_view.png)
+![Mobile view](./screenshots/mobile_view.png)
 
 ### Links
 
