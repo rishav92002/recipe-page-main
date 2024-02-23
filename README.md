@@ -9,7 +9,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [](https://rishav92002.github.io/recipe-page-main/)
 
 ## My process
 I started  by creating a new HTML file called `index.html` in VS Code, then added basic structure for the recipe page including headings, paragraphs, an image, and a list. and i build each section writing html and css together.
