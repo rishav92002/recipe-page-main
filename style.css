@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+*,
+*::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+  }
+
+  :root{
+    --Nutmeg: hsl(14, 45%, 36%);
+    --Dark-Raspberry: hsl(332, 51%, 32%);
+    --White: hsl(0, 0%, 100%);
+    --Rose-White: hsl(330, 100%, 98%);
+    --Eggshell: hsl(30, 54%, 90%);
+    --Light-Grey: hsl(30, 18%, 87%);
+    --Wenge-Brown: hsl(30, 10%, 34%);
+    --Dark-Charcoal: hsl(24, 5%, 18%);
+  }
+  html p{
+    font-size: 16px;
+  }
+  body{
+    background: var(--Light-Grey);
+  }
+  p,
+  li{
+    font-family: "Outfit";
+  }
+
+  .whole{
+    /* width: 100%; */
+    background: var(--White);
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    margin: 119px 351px 119px 351px;
+    padding:40px
+    
+  }
+  .image{
+    margin-bottom: 40px;
+  }
+  .image img{
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  .intro{
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+  }
+  .intro h2{
+    font-family: "Young Serif";
+    font-weight: 400;
+    margin-bottom:30px ;
+  }
+  .intro p{
+    font-family: "Outfit";
+    margin-bottom: 35px;
+    /* font-size: 20px; */
+  }
+  .p-time{
+    padding: 30px;
+    background: var(--Rose-White);
+    border-radius: 5px;
+  }
+  .p-time h3{
+    color: var(--Dark-Raspberry);
+    margin-bottom: 20px;
+  }
+  .p-time ul{
+    margin-left: 22px;
+    /* list-style-color:var(--Dark-Raspberry) */
+  }
+  .p-time li{
+    padding: 5px;
+    
+  }
+  .p-time li::marker{
+    color: var(--Dark-Raspberry);
+    
+  }
+  .ingredients{
+    margin-top: 35px;
+  }
+  .ingredients h2{
+    color: var(--Nutmeg);
+    margin-bottom: 25px;
+  }
+  .ingredients ul{
+    margin-left: 22px;
+    /* list-style-color:var(--Dark-Raspberry) */
+  }
+  .ingredients li{
+    padding: 5px;
+    
+  }
+  .ingredients li::marker{
+    color: var(--Nutmeg);
+    
+  }
+  .instructions{
+    
+  }
+  .instructions h2{
+    color: var(--Nutmeg);
+    margin-bottom: 25px;
+  }
+  .instructions p{
+    /* color: var(--Nutmeg); */
+    margin-bottom: 25px;
+  }
+  .instructions ol{
+    margin-left: 22px;
+  }
+  .instructions li{
+    padding: 5px;
+  }
+  .instructions li::marker{
+    color: var(--Nutmeg);
+    font-weight: 800;
+    
+  }
+  .line-between{
+    margin-top: 35px;
+    margin-bottom: 35px;
+    
+  }
+  .nutrition h2{
+    color: var(--Nutmeg);
+    margin-bottom: 25px;
+  }
+  .table{
+    /* width: 50%; */
+    margin: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.val{
+    color: var(--Nutmeg);
+    font-weight: 800;
+    text-align: left;
+}
+.table hr{
+    margin: 10px;
+}
+.row div{
+    margin-left: 15px;
+    margin-right: 250px;
+}
+.row div:last-child {
+    text-align: left; /* Align the text in the last column to the left */
+}
+@media only screen and (max-width: 375px) {
+  .whole{
+    width: 100%;
+    background: var(--White);
+    border-radius: 0px;
+    margin: 0px;
+    padding:0px
+    
+  }
+ .image img{
+  border-radius: 0px;
+ }
+ .intro{
+  display: flex;
+  /* align-items: center; */
+  margin-left: 40px;
+  margin-right: 40px;
+  flex-direction: column;
+}
+.intro h2{
+  font-family: "Young Serif";
+  font-weight: 400;
+  margin-bottom:30px ;
+}
+.intro p{
+  font-family: "Outfit";
+  margin-bottom: 35px;
+  
+}
+.ingredients{
+  margin-top: 35px;
+  margin-left: 40px;
+  margin-right: 40px;
+  /* align-items: center; */
+}
+.ingredients h2{
+  color: var(--Nutmeg);
+  margin-bottom: 25px;
+}
+.ingredients ul{
+  margin-left: 22px;
+  
+  /* list-style-color:var(--Dark-Raspberry) */
+}
+
+.instructions{
+  margin-left: 40px;
+  margin-right: 40px;
+    
+}
+.nutrition{
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: -20px;
+    
+}
+.row{
+  max-width: 100%;
+}
+
+.val{
+  color: var(--Nutmeg);
+  font-weight: 800;
+  text-align: left;
+}
+.table{
+  padding-bottom: 50px;
+  
+}
+.table hr{
+  margin: 10px;
+}
+.row div{
+  margin-left: 0px;
+  margin-right: 30px;
+}
+
+
+}
+
+
